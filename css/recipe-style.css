@@ -183,7 +183,39 @@ main {
 
 h1 {
     font-size: 1.9rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3px 5px 3px #ccc;
 }
 
+h2 {
+    font-size: 1.2rem;
+}
+
+Img {
+    float: none;
+    max-width: 60%;
+    margin-left: 20%;
+}
+
+.rate {
+    font-size: 1rem;
+}
+
+.details,
+.ingredients,
+.instructions,
+.nutrition {
+    width: 90%;
+    float:  none;
+}
+
+.col1,
+.col2,
+.col3 {
+    display: block;
+    float: none;
+    width: 90%;
+}
 
 }
