@@ -194,8 +194,8 @@ h2 {
 
 Img {
     float: none;
-    max-width: 60%;
-    margin-left: 20%;
+    max-width: 50%;
+    margin-left: 25%;
 }
 
 .rate {
@@ -215,7 +215,8 @@ Img {
 .col3 {
     display: block;
     float: none;
-    width: 90%;
-}
+    width: 80%;
+    font-size: .9rem;
+}    
 
 }
