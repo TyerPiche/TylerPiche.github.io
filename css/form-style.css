@@ -67,6 +67,7 @@ form {
 
 label,
 span {
+  border: black 1px;
   display: inline-block;
   width: 250px;
   margin-right: 20px;
