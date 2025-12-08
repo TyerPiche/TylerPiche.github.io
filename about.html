@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Harvest Hope Food Pantry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-wrapper">
+    <header class="site-header">
+      <div class="logo">
+        <img src="img/front.webp" alt="Front of Harvest Hope Food Pantry building with welcome banner" class="logo-img">
+        <h1>Harvest Hope Food Pantry</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="donate.html">Donate / Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <article>
+        <h2>Our Mission</h2>
+        <p>Harvest Hope exists to reduce hunger and improve wellbeing by providing dignified access to nutritious food and community resources.</p>
+
+        <h3>Our History</h3>
+        <p>Founded in 2010 by neighbors and volunteers, Harvest Hope started as a small weekend food box program and has grown to serve hundreds of households annually.</p>
+
+        <h3>How you can get involved</h3>
+        <ol>
+          <li>Volunteer at the pantry (packing, distribution).</li>
+          <li>Donate non-perishable or monetary gifts.</li>
+          <li>Share our mission on social media and with neighbors.</li>
+        </ol>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Harvest Hope Food Pantry.</p>
+        <p class="small">Original site (design starting point): <a href="https://www.harvesthope.org" target="_blank" rel="noopener noreferrer">https://www.harvesthope.org</a></p>
+      </div>
+      <div class="footer-right">
+        <p class="small">External resources: <a href="https://www.usda.gov/" target="_blank" rel="noopener noreferrer">USDA</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

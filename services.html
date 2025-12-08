@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Harvest Hope Food Pantry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-wrapper">
+    <header class="site-header">
+      <div class="logo">
+       <img src="img/front.webp" alt="Front of Harvest Hope Food Pantry building with welcome banner" class="logo-img">
+        <h1>Harvest Hope Food Pantry</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="donate.html">Donate / Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <h2>Services We Offer</h2>
+
+      <section class="service-list">
+        <article>
+          <h3>Emergency Food Assistance</h3>
+          <p>Short-term food packages for households in crisis. No appointment required during open hours.</p>
+        </article>
+
+        <article>
+          <h3>Weekly Produce Box</h3>
+          <p>Fresh fruits and vegetables sourced from local farms and donations.</p>
+        </article>
+
+        <article>
+          <h3>Delivery to Homebound Individuals</h3>
+          <p>We deliver to seniors and neighbors who can't travel, coordinated by volunteers.</p>
+        </article>
+
+        <figure class="volunteer-photo">
+          <img src="img/helping.jpg" alt="Volunteers handing a bag of groceries to a neighbor at the pantry pickup window">
+          <figcaption class="small attribution">Image source: pexels</figcaption>
+        </figure>
+      </section>
+
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="https://www.usda.gov/" target="_blank" rel="noopener noreferrer">USDA Nutrition & Food Assistance</a></li>
+        <li><a href="https://www.volunteermatch.org/" target="_blank" rel="noopener noreferrer">VolunteerMatch</a></li>
+      </ul>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Harvest Hope Food Pantry.</p>
+        <p class="small">Original site (design starting point): <a href="https://www.harvesthope.org" target="_blank" rel="noopener noreferrer">https://www.harvesthope.org</a></p>
+      </div>
+      <div class="footer-right">
+        <p class="small">Attributions: placeholder images included.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

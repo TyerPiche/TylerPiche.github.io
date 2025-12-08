@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Donate & Contact — Harvest Hope Food Pantry</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-wrapper">
+    <header class="site-header">
+      <div class="logo">
+         <img src="img/front.webp" alt="Front of Harvest Hope Food Pantry building with welcome banner" class="logo-img">
+        <h1>Harvest Hope Food Pantry</h1>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index2.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="donate.html" class="active">Donate / Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <h2>Support Us</h2>
+      <p>We welcome both monetary donations and food/household item donations. Use the form below to get in touch or sign up to volunteer.</p>
+
+      <!-- HTML comment example -->
+      <!-- The form uses action="#" for demo. Replace with a real endpoint for live submissions. -->
+      <form action="#" method="post" class="contact-form" aria-label="Contact form">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="phone">Phone number</label>
+        <input id="phone" name="phone" type="tel" placeholder="555-555-5555">
+
+        <label for="interest">I'm interested in</label>
+        <select id="interest" name="interest">
+          <option value="donate-money">Donate Money</option>
+          <option value="donate-food">Donate Food</option>
+          <option value="volunteer">Volunteer</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message / Comments</label>
+        <textarea id="message" name="message" rows="5" placeholder="How can we help?"></textarea>
+
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+
+      <section class="donation-options">
+        <h3>Donation Options</h3>
+        <ul>
+          <li>Online monetary gift (link to external payment processor placeholder)</li>
+          <li>Drop-off during open hours</li>
+          <li>Organize a food drive at your workplace or school</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <p>&copy; <span id="year"></span> Harvest Hope Food Pantry.</p>
+        <p class="small">Original site (design starting point): <a href="https://www.harvesthope.org" target="_blank" rel="noopener noreferrer">https://www.harvesthope.org</a></p>
+      </div>
+      <div class="footer-right">
+        <p class="small">External: <a href="https://www.usda.gov/" target="_blank" rel="noopener noreferrer">USDA</a>, <a href="https://www.volunteermatch.org/" target="_blank" rel="noopener noreferrer">VolunteerMatch</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
